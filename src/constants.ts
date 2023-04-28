@@ -46,6 +46,8 @@ export const PAIR_CONTRACT_CLASS_HASH = '0x231adde42526bad434ca2eb983efdd6447263
 export const FACTORY_ADDRESSES: {
   [chainId in StarknetChainId]: string
 } = {
+  // [StarknetChainId.MAINNET]: '0x00d018832f3b2b082f7ebaa3eae2a5323708a7bb7598db620c0dba0e985e9a53',
+  // [StarknetChainId.TESTNET]: '0x021b9f5ea693def6bcf563f088008bd0db0b8ed80763dd7a0fbea112742578ab'
   [StarknetChainId.MAINNET]: '0x00d018832f3b2b082f7ebaa3eae2a5323708a7bb7598db620c0dba0e985e9a53',
   [StarknetChainId.TESTNET]: '0x021b9f5ea693def6bcf563f088008bd0db0b8ed80763dd7a0fbea112742578ab'
 }
