@@ -41,14 +41,14 @@ export const SOLIDITY_TYPE_MAXIMA = {
   [SolidityType.uint256]: JSBI.BigInt('0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff')
 }
 
-export const PAIR_CONTRACT_CLASS_HASH = '0x231adde42526bad434ca2eb983efdd64472638702f87f97e6e3c084f264e06f'
+export const PAIR_CONTRACT_CLASS_HASH = '0x525f513c79c6affa761d7adc8f4083e3fe23de697cbc923e2e8c884ce3751a2'
 
 export const FACTORY_ADDRESSES: {
   [chainId in StarknetChainId]: string
 } = {
-  // [StarknetChainId.MAINNET]: '0x00d018832f3b2b082f7ebaa3eae2a5323708a7bb7598db620c0dba0e985e9a53',
+  // [StarknetChainId.MAINNET]: '0x07df3bce30857e8f9c08bcd9d9668df34166e94dd968db6e2920b870c4410e34',
   // [StarknetChainId.TESTNET]: '0x021b9f5ea693def6bcf563f088008bd0db0b8ed80763dd7a0fbea112742578ab'
-  [StarknetChainId.MAINNET]: '0x00d018832f3b2b082f7ebaa3eae2a5323708a7bb7598db620c0dba0e985e9a53',
+  [StarknetChainId.MAINNET]: '0x07df3bce30857e8f9c08bcd9d9668df34166e94dd968db6e2920b870c4410e34',
   [StarknetChainId.TESTNET]: '0x021b9f5ea693def6bcf563f088008bd0db0b8ed80763dd7a0fbea112742578ab'
 }
 

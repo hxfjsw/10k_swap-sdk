@@ -29,7 +29,7 @@ export declare const SOLIDITY_TYPE_MAXIMA: {
     uint8: JSBI;
     uint256: JSBI;
 };
-export declare const PAIR_CONTRACT_CLASS_HASH = "0x231adde42526bad434ca2eb983efdd64472638702f87f97e6e3c084f264e06f";
+export declare const PAIR_CONTRACT_CLASS_HASH = "0x525f513c79c6affa761d7adc8f4083e3fe23de697cbc923e2e8c884ce3751a2";
 export declare const FACTORY_ADDRESSES: {
     [chainId in StarknetChainId]: string;
 };
